@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1BDD311B43873500F96500 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1BDD2F1B43873500F96500 /* NewsViewController.m */; };
+		EA1BDD321B43873500F96500 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1BDD301B43873500F96500 /* NewsViewController.xib */; };
+		EA23932B1B43E38C0021FB0D /* FDSlideContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA23932A1B43E38C0021FB0D /* FDSlideContentView.m */; };
+		EA30E73A1B2034C1000A8291 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30E7391B2034C1000A8291 /* main.m */; };
+		EA30E73D1B2034C1000A8291 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30E73C1B2034C1000A8291 /* AppDelegate.m */; };
+		EA30E7401B2034C1000A8291 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30E73F1B2034C1000A8291 /* ViewController.m */; };
+		EA30E7431B2034C1000A8291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA30E7411B2034C1000A8291 /* Main.storyboard */; };
+		EA30E7451B2034C1000A8291 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA30E7441B2034C1000A8291 /* Images.xcassets */; };
+		EA30E7481B2034C1000A8291 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA30E7461B2034C1000A8291 /* LaunchScreen.xib */; };
+		EA30E7541B2034C1000A8291 /* FDSlideBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30E7531B2034C1000A8291 /* FDSlideBarDemoTests.m */; };
+		EA30E7601B203524000A8291 /* FDSlideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30E75F1B203524000A8291 /* FDSlideBar.m */; };
+		EA30E7631B203543000A8291 /* FDSlideBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30E7621B203543000A8291 /* FDSlideBarItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA30E74E1B2034C1000A8291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA30E72C1B2034C1000A8291 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA30E7331B2034C1000A8291;
+			remoteInfo = FDSlideBarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1BDD2E1B43873500F96500 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		EA1BDD2F1B43873500F96500 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		EA1BDD301B43873500F96500 /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		EA2393291B43E38C0021FB0D /* FDSlideContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSlideContentView.h; sourceTree = "<group>"; };
+		EA23932A1B43E38C0021FB0D /* FDSlideContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSlideContentView.m; sourceTree = "<group>"; };
+		EA30E7341B2034C1000A8291 /* FDSlideBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDSlideBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA30E7381B2034C1000A8291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA30E7391B2034C1000A8291 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA30E73B1B2034C1000A8291 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA30E73C1B2034C1000A8291 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA30E73E1B2034C1000A8291 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA30E73F1B2034C1000A8291 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA30E7421B2034C1000A8291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA30E7441B2034C1000A8291 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA30E7471B2034C1000A8291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA30E74D1B2034C1000A8291 /* FDSlideBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDSlideBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA30E7521B2034C1000A8291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA30E7531B2034C1000A8291 /* FDSlideBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDSlideBarDemoTests.m; sourceTree = "<group>"; };
+		EA30E75E1B203524000A8291 /* FDSlideBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDSlideBar.h; path = FDSlideBar/FDSlideBar.h; sourceTree = "<group>"; };
+		EA30E75F1B203524000A8291 /* FDSlideBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDSlideBar.m; path = FDSlideBar/FDSlideBar.m; sourceTree = "<group>"; };
+		EA30E7611B203543000A8291 /* FDSlideBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDSlideBarItem.h; path = FDSlideBar/FDSlideBarItem.h; sourceTree = "<group>"; };
+		EA30E7621B203543000A8291 /* FDSlideBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDSlideBarItem.m; path = FDSlideBar/FDSlideBarItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA30E7311B2034C1000A8291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA30E74A1B2034C1000A8291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1BDD331B43874200F96500 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA1BDD2E1B43873500F96500 /* NewsViewController.h */,
+				EA1BDD2F1B43873500F96500 /* NewsViewController.m */,
+				EA1BDD301B43873500F96500 /* NewsViewController.xib */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		EA30E72B1B2034C1000A8291 = {
+			isa = PBXGroup;
+			children = (
+				EA30E7361B2034C1000A8291 /* FDSlideBarDemo */,
+				EA30E7501B2034C1000A8291 /* FDSlideBarDemoTests */,
+				EA30E7351B2034C1000A8291 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA30E7351B2034C1000A8291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA30E7341B2034C1000A8291 /* FDSlideBarDemo.app */,
+				EA30E74D1B2034C1000A8291 /* FDSlideBarDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA30E7361B2034C1000A8291 /* FDSlideBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EA30E75D1B2034D5000A8291 /* FDSlideBar */,
+				EA30E73B1B2034C1000A8291 /* AppDelegate.h */,
+				EA30E73C1B2034C1000A8291 /* AppDelegate.m */,
+				EA30E73E1B2034C1000A8291 /* ViewController.h */,
+				EA30E73F1B2034C1000A8291 /* ViewController.m */,
+				EA1BDD331B43874200F96500 /* controllers */,
+				EA30E7411B2034C1000A8291 /* Main.storyboard */,
+				EA30E7441B2034C1000A8291 /* Images.xcassets */,
+				EA30E7461B2034C1000A8291 /* LaunchScreen.xib */,
+				EA30E7371B2034C1000A8291 /* Supporting Files */,
+			);
+			path = FDSlideBarDemo;
+			sourceTree = "<group>";
+		};
+		EA30E7371B2034C1000A8291 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA30E7381B2034C1000A8291 /* Info.plist */,
+				EA30E7391B2034C1000A8291 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA30E7501B2034C1000A8291 /* FDSlideBarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA30E7531B2034C1000A8291 /* FDSlideBarDemoTests.m */,
+				EA30E7511B2034C1000A8291 /* Supporting Files */,
+			);
+			path = FDSlideBarDemoTests;
+			sourceTree = "<group>";
+		};
+		EA30E7511B2034C1000A8291 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA30E7521B2034C1000A8291 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA30E75D1B2034D5000A8291 /* FDSlideBar */ = {
+			isa = PBXGroup;
+			children = (
+				EA30E75E1B203524000A8291 /* FDSlideBar.h */,
+				EA30E75F1B203524000A8291 /* FDSlideBar.m */,
+				EA30E7611B203543000A8291 /* FDSlideBarItem.h */,
+				EA30E7621B203543000A8291 /* FDSlideBarItem.m */,
+				EA2393291B43E38C0021FB0D /* FDSlideContentView.h */,
+				EA23932A1B43E38C0021FB0D /* FDSlideContentView.m */,
+			);
+			name = FDSlideBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA30E7331B2034C1000A8291 /* FDSlideBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA30E7571B2034C1000A8291 /* Build configuration list for PBXNativeTarget "FDSlideBarDemo" */;
+			buildPhases = (
+				EA30E7301B2034C1000A8291 /* Sources */,
+				EA30E7311B2034C1000A8291 /* Frameworks */,
+				EA30E7321B2034C1000A8291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDSlideBarDemo;
+			productName = FDSlideBarDemo;
+			productReference = EA30E7341B2034C1000A8291 /* FDSlideBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA30E74C1B2034C1000A8291 /* FDSlideBarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA30E75A1B2034C1000A8291 /* Build configuration list for PBXNativeTarget "FDSlideBarDemoTests" */;
+			buildPhases = (
+				EA30E7491B2034C1000A8291 /* Sources */,
+				EA30E74A1B2034C1000A8291 /* Frameworks */,
+				EA30E74B1B2034C1000A8291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA30E74F1B2034C1000A8291 /* PBXTargetDependency */,
+			);
+			name = FDSlideBarDemoTests;
+			productName = FDSlideBarDemoTests;
+			productReference = EA30E74D1B2034C1000A8291 /* FDSlideBarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA30E72C1B2034C1000A8291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = fergusding;
+				TargetAttributes = {
+					EA30E7331B2034C1000A8291 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					EA30E74C1B2034C1000A8291 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = EA30E7331B2034C1000A8291;
+					};
+				};
+			};
+			buildConfigurationList = EA30E72F1B2034C1000A8291 /* Build configuration list for PBXProject "FDSlideBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA30E72B1B2034C1000A8291;
+			productRefGroup = EA30E7351B2034C1000A8291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA30E7331B2034C1000A8291 /* FDSlideBarDemo */,
+				EA30E74C1B2034C1000A8291 /* FDSlideBarDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA30E7321B2034C1000A8291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA30E7431B2034C1000A8291 /* Main.storyboard in Resources */,
+				EA30E7481B2034C1000A8291 /* LaunchScreen.xib in Resources */,
+				EA1BDD321B43873500F96500 /* NewsViewController.xib in Resources */,
+				EA30E7451B2034C1000A8291 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA30E74B1B2034C1000A8291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA30E7301B2034C1000A8291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1BDD311B43873500F96500 /* NewsViewController.m in Sources */,
+				EA23932B1B43E38C0021FB0D /* FDSlideContentView.m in Sources */,
+				EA30E7401B2034C1000A8291 /* ViewController.m in Sources */,
+				EA30E73D1B2034C1000A8291 /* AppDelegate.m in Sources */,
+				EA30E73A1B2034C1000A8291 /* main.m in Sources */,
+				EA30E7631B203543000A8291 /* FDSlideBarItem.m in Sources */,
+				EA30E7601B203524000A8291 /* FDSlideBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA30E7491B2034C1000A8291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA30E7541B2034C1000A8291 /* FDSlideBarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA30E74F1B2034C1000A8291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA30E7331B2034C1000A8291 /* FDSlideBarDemo */;
+			targetProxy = EA30E74E1B2034C1000A8291 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA30E7411B2034C1000A8291 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA30E7421B2034C1000A8291 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA30E7461B2034C1000A8291 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA30E7471B2034C1000A8291 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA30E7551B2034C1000A8291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA30E7561B2034C1000A8291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA30E7581B2034C1000A8291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDSlideBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA30E7591B2034C1000A8291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDSlideBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA30E75B1B2034C1000A8291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FDSlideBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDSlideBarDemo.app/FDSlideBarDemo";
+			};
+			name = Debug;
+		};
+		EA30E75C1B2034C1000A8291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FDSlideBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDSlideBarDemo.app/FDSlideBarDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA30E72F1B2034C1000A8291 /* Build configuration list for PBXProject "FDSlideBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA30E7551B2034C1000A8291 /* Debug */,
+				EA30E7561B2034C1000A8291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA30E7571B2034C1000A8291 /* Build configuration list for PBXNativeTarget "FDSlideBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA30E7581B2034C1000A8291 /* Debug */,
+				EA30E7591B2034C1000A8291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA30E75A1B2034C1000A8291 /* Build configuration list for PBXNativeTarget "FDSlideBarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA30E75B1B2034C1000A8291 /* Debug */,
+				EA30E75C1B2034C1000A8291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA30E72C1B2034C1000A8291 /* Project object */;
+}
