@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA1BDD311B43873500F96500 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1BDD2F1B43873500F96500 /* NewsViewController.m */; };
-		EA1BDD321B43873500F96500 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1BDD301B43873500F96500 /* NewsViewController.xib */; };
 		EA23932B1B43E38C0021FB0D /* FDSlideContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA23932A1B43E38C0021FB0D /* FDSlideContentView.m */; };
+		EA2A49341B54F6DD00064186 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A49321B54F6DD00064186 /* TableViewCell.m */; };
+		EA2A49351B54F6DD00064186 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2A49331B54F6DD00064186 /* TableViewCell.xib */; };
 		EA30E73A1B2034C1000A8291 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30E7391B2034C1000A8291 /* main.m */; };
 		EA30E73D1B2034C1000A8291 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30E73C1B2034C1000A8291 /* AppDelegate.m */; };
-		EA30E7401B2034C1000A8291 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30E73F1B2034C1000A8291 /* ViewController.m */; };
 		EA30E7431B2034C1000A8291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA30E7411B2034C1000A8291 /* Main.storyboard */; };
 		EA30E7451B2034C1000A8291 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA30E7441B2034C1000A8291 /* Images.xcassets */; };
 		EA30E7481B2034C1000A8291 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA30E7461B2034C1000A8291 /* LaunchScreen.xib */; };
 		EA30E7541B2034C1000A8291 /* FDSlideBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30E7531B2034C1000A8291 /* FDSlideBarDemoTests.m */; };
 		EA30E7601B203524000A8291 /* FDSlideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30E75F1B203524000A8291 /* FDSlideBar.m */; };
 		EA30E7631B203543000A8291 /* FDSlideBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30E7621B203543000A8291 /* FDSlideBarItem.m */; };
+		EA8AD9F31B54AE98007802CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8AD9F21B54AE98007802CF /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,18 +32,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA1BDD2E1B43873500F96500 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
-		EA1BDD2F1B43873500F96500 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
-		EA1BDD301B43873500F96500 /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
 		EA2393291B43E38C0021FB0D /* FDSlideContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSlideContentView.h; sourceTree = "<group>"; };
 		EA23932A1B43E38C0021FB0D /* FDSlideContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSlideContentView.m; sourceTree = "<group>"; };
+		EA2A49311B54F6DD00064186 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = SOURCE_ROOT; };
+		EA2A49321B54F6DD00064186 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = SOURCE_ROOT; };
+		EA2A49331B54F6DD00064186 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = SOURCE_ROOT; };
 		EA30E7341B2034C1000A8291 /* FDSlideBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDSlideBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA30E7381B2034C1000A8291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA30E7391B2034C1000A8291 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA30E73B1B2034C1000A8291 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA30E73C1B2034C1000A8291 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA30E73E1B2034C1000A8291 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA30E73F1B2034C1000A8291 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EA30E7421B2034C1000A8291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA30E7441B2034C1000A8291 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EA30E7471B2034C1000A8291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		EA30E75F1B203524000A8291 /* FDSlideBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDSlideBar.m; path = FDSlideBar/FDSlideBar.m; sourceTree = "<group>"; };
 		EA30E7611B203543000A8291 /* FDSlideBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDSlideBarItem.h; path = FDSlideBar/FDSlideBarItem.h; sourceTree = "<group>"; };
 		EA30E7621B203543000A8291 /* FDSlideBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDSlideBarItem.m; path = FDSlideBar/FDSlideBarItem.m; sourceTree = "<group>"; };
+		EA8AD9F11B54AE98007802CF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA8AD9F21B54AE98007802CF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,16 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA1BDD331B43874200F96500 /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-				EA1BDD2E1B43873500F96500 /* NewsViewController.h */,
-				EA1BDD2F1B43873500F96500 /* NewsViewController.m */,
-				EA1BDD301B43873500F96500 /* NewsViewController.xib */,
-			);
-			name = controllers;
-			sourceTree = "<group>";
-		};
 		EA30E72B1B2034C1000A8291 = {
 			isa = PBXGroup;
 			children = (
@@ -108,9 +98,11 @@
 				EA30E75D1B2034D5000A8291 /* FDSlideBar */,
 				EA30E73B1B2034C1000A8291 /* AppDelegate.h */,
 				EA30E73C1B2034C1000A8291 /* AppDelegate.m */,
-				EA30E73E1B2034C1000A8291 /* ViewController.h */,
-				EA30E73F1B2034C1000A8291 /* ViewController.m */,
-				EA1BDD331B43874200F96500 /* controllers */,
+				EA8AD9F11B54AE98007802CF /* ViewController.h */,
+				EA8AD9F21B54AE98007802CF /* ViewController.m */,
+				EA2A49311B54F6DD00064186 /* TableViewCell.h */,
+				EA2A49321B54F6DD00064186 /* TableViewCell.m */,
+				EA2A49331B54F6DD00064186 /* TableViewCell.xib */,
 				EA30E7411B2034C1000A8291 /* Main.storyboard */,
 				EA30E7441B2034C1000A8291 /* Images.xcassets */,
 				EA30E7461B2034C1000A8291 /* LaunchScreen.xib */,
@@ -239,8 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA30E7431B2034C1000A8291 /* Main.storyboard in Resources */,
+				EA2A49351B54F6DD00064186 /* TableViewCell.xib in Resources */,
 				EA30E7481B2034C1000A8291 /* LaunchScreen.xib in Resources */,
-				EA1BDD321B43873500F96500 /* NewsViewController.xib in Resources */,
 				EA30E7451B2034C1000A8291 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA1BDD311B43873500F96500 /* NewsViewController.m in Sources */,
+				EA2A49341B54F6DD00064186 /* TableViewCell.m in Sources */,
 				EA23932B1B43E38C0021FB0D /* FDSlideContentView.m in Sources */,
-				EA30E7401B2034C1000A8291 /* ViewController.m in Sources */,
+				EA8AD9F31B54AE98007802CF /* ViewController.m in Sources */,
 				EA30E73D1B2034C1000A8291 /* AppDelegate.m in Sources */,
 				EA30E73A1B2034C1000A8291 /* main.m in Sources */,
 				EA30E7631B203543000A8291 /* FDSlideBarItem.m in Sources */,

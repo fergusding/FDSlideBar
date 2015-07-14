@@ -1,8 +1,8 @@
 //
-//  AnotherViewController.h
+//  ViewController.h
 //  FDSlideBarDemo
 //
-//  Created by fergusding on 15/7/14.
+//  Created by fergusding on 15/6/4.
 //  Copyright (c) 2015年 fergusding. All rights reserved.
 //
 
@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+
 @end
+

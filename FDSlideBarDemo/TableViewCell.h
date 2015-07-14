@@ -1,5 +1,5 @@
 //
-//  AnotherViewController.h
+//  TableViewCell.h
 //  FDSlideBarDemo
 //
 //  Created by fergusding on 15/7/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TableViewCell : UITableViewCell
+
+@property (strong, nonatomic) NSString *text;
 
 @end
