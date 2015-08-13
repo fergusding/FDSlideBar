@@ -132,7 +132,7 @@
     CGPoint offset = _scrollView.contentOffset;
     
     // If the item to be visible is in the screen, nothing to do
-    if (CGRectGetMinX(item.frame) > offset.x && CGRectGetMaxX(item.frame) < (offset.x + CGRectGetWidth(_scrollView.frame))) {
+    if (CGRectGetMinX(item.frame) >= offset.x && CGRectGetMaxX(item.frame) <= (offset.x + CGRectGetWidth(_scrollView.frame))) {
         return;
     }
     
@@ -209,6 +209,7 @@
         return;
     }
     
+    [self scrollToVisibleItem:item];
     [self addAnimationWithSelectedItem:item];
     self.selectedItem = item;
     _callback([self.items indexOfObject:item]);
